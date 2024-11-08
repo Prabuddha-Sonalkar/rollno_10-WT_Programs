@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mouse Events</h1>
+    <script>
+        function clickk(){
+            alert("Hi");
+        }
+        function mouseD(){
+            document.getElementById('a').style.color="red";
+
+        }
+
+        function mouseUp(){
+            document.getElementById('a').style.color="black";
+
+        }
+        function DB(){
+            alert('Doubled Clicked');   
+        }
+    </script>
+
+    
+    <button onclick="clickk();"> click me </button>
+    <button ondblclick="DB();">Double Click</button>
+    <br><br>
+    <p id="a" onmousedown="mouseD();" onmouseup="mouseUp();"> Hello , I am Prabuddha Sonalkar </p>
+</body>
+
+</html>

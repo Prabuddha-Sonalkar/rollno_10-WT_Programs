@@ -1,0 +1,20 @@
+<html lang="en">
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <script>
+            function abc(){
+            var a = document.getElementById('fname');
+            a.value = a.value.toUpperCase();
+            }
+            function xyz(x){
+                x.style.background="yellow";
+            }
+        </script>
+        <input type="text" id="fname" onblur="abc();">
+        <input type="text" id="test" onfocus="xyz(this);">
+        <input type="text" id="fname" onfocusout="abc();">
+        <input type="text" id="test" onfocusin="xyz(this);">
+    </body>
+</html>

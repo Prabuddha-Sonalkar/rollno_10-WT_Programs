@@ -1,0 +1,16 @@
+students{
+    display: block;
+    font-family:'Times New Roman', Times, serif;
+    padding: 30px;
+}
+student{
+    display: block;
+    border: 1px solid black;
+    width: 7%;
+    padding: 20px;
+    font-size:20px;
+}
+column{
+    font-size:20px;
+    padding: 15px;
+}

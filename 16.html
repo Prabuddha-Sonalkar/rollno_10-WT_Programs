@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        #target{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+             /* margin: 50px auto; */
+            text-align: center;
+            justify-content: center;
+            line-height: 100px;
+            cursor: pointer; 
+        }
+    </style>
+    <div id="target">hi</div>
+    <script>
+        let target = document.getElementById('target');
+        target.addEventListener('click',function(event){
+            console.log("clicked");
+        });
+        
+        target.addEventListener('mouseover',function(event){
+           console.log("over");
+        });
+        target.addEventListener('mousein',function(event){
+           console.log("in"); 
+        });
+        target.addEventListener('mouseout',function(event){
+           console.log("out"); 
+        });
+    </script>
+</body>
+</html>

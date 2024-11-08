@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Object Example</title>
+</head>
+<body>
+    <h1>JavaScript Object Example</h1>
+    <script>
+        // Define a JavaScript object representing a person
+        let person = {
+            name: "John Doe",
+            age: 30,
+            gender: "Male",
+            occupation: "Software Engineer",
+            greet() {
+                return `Hello, my name is ${this.name}. I am ${this.age} years old.`;
+            }
+        };
+
+        // Display properties of the person object using document.write
+        document.write("<p>Name: " + person.name + "</p>");
+        document.write("<p>Age: " + person.age + "</p>");
+        document.write("<p>Gender: " + person.gender + "</p>");
+        document.write("<p>Occupation: " + person.occupation + "</p>");
+
+        // Call the greet method of the person object and display the result
+        document.write("<p>" + person.greet() + "</p>");
+    </script>
+</body>
+</html>

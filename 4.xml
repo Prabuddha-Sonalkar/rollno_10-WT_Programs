@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="4.xsl"?>
+<employees>
+    <employee>
+        <id>1</id>
+        <name>John Doe</name>
+        <position>Software Engineer</position>
+        <salary>75000</salary>
+    </employee>
+    <employee>
+        <id>2</id>
+        <name>Jane Smith</name>
+        <position>Project Manager</position>
+        <salary>90000</salary>
+    </employee>
+    <employee>
+        <id>3</id>
+        <name>Emily Johnson</name>
+        <position>Data Analyst</position>
+        <salary>65000</salary>
+    </employee>
+    <employee>
+        <id>4</id>
+        <name>Michael Brown</name>
+        <position>Intern</position>
+        <salary>30000</salary>
+    </employee>
+</employees>

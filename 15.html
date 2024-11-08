@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Event Example</title>
+</head>
+<body>
+    <h1>Key Event Example</h1>
+    <p>Press any key and check.</p>
+
+    <script>
+        // Function to handle keydown event
+        function handleKeyDown(event) {
+            document.write("Key pressed:", event.key);
+        }
+
+        // Add event listener for keydown event
+        document.addEventListener("keydown", handleKeyDown);
+    </script>
+</body>
+</html>

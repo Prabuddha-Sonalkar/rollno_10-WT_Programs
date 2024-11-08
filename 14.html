@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Exception Handling</title>
+</head>
+<body>
+    <h1>JavaScript Exception Handling</h1>
+    <script>
+        try {
+            // Code that may throw an exception
+            let divisor = 0;
+            if (divisor === 0) {
+                throw new Error("Division by zero is not allowed");
+            }
+            let result = 10 / divisor;
+            document.write("Result: " + result); // This line will not be executed if an exception occurs
+        } catch (error) {
+            // Code to handle the exception
+            document.write("An error occurred: " + error.message);
+        }
+    </script>
+</body>
+</html>

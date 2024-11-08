@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xpathPredicates.xsl"?>
+<library>
+    <book>
+        <title>Effective Java</title>
+        <author>Joshua Bloch</author>
+        <year>2008</year>
+        <price>50</price>
+    </book>
+    <book>
+        <title>Clean Code</title>
+        <author>Robert C. Martin</author>
+        <year>2008</year>
+        <price>45</price>
+    </book>
+    <book>
+        <title>Design Patterns</title>
+        <author>Erich Gamma</author>
+        <year>1994</year>
+        <price>40</price>
+    </book>
+    <book>
+        <title>Refactoring</title>
+        <author>Martin Fowler</author>
+        <year>1999</year>
+        <price>55</price>
+    </book>
+</library>
